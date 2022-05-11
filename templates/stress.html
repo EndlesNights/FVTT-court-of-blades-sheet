@@ -1,0 +1,159 @@
+<section class="flexrow">
+<div class="stresses"id="character-{{actor._id}}-stresses">
+
+    <label class="bars" style="transform: translate(144px, 11px)"> </label>
+    <label class="bars" style="transform: translate(230px, 11px)"> </label>
+    <label class="bars" style="transform: translate(316px, 11px)"> </label>
+    <table class="stress-table ">
+        <tbody>
+            <tr>
+                <th><label>{{localize "BITD.labelViolence"}}</label></th>
+                <td class="stress">
+                    {{#multiboxes data.stress_violence}}
+                    <input type="radio" id="stress_violence-{{actor._id}}-0" name="data.stress_violence" value="0" checked="checked">
+                    <input type="radio" id="stress_violence-{{actor._id}}-1" name="data.stress_violence" value="1">
+                    <label for="stress_violence-{{actor._id}}-1"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-2" name="data.stress_violence" value="2">
+                    <label for="stress_violence-{{actor._id}}-2"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-3" name="data.stress_violence" value="3">
+                    <label for="stress_violence-{{actor._id}}-3"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-4" name="data.stress_violence" value="4">
+                    <label for="stress_violence-{{actor._id}}-4"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-5" name="data.stress_violence" value="5">
+                    <label for="stress_violence-{{actor._id}}-5"></label>
+                    <span class="sideways">{{localize "BITD.labelCrack"}}</span>
+
+                    <input type="radio" id="stress_violence-{{actor._id}}-6" name="data.stress_violence" value="6">
+                    <label for="stress_violence-{{actor._id}}-6"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-7" name="data.stress_violence" value="7">
+                    <label for="stress_violence-{{actor._id}}-7"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-8" name="data.stress_violence" value="8">
+                    <label for="stress_violence-{{actor._id}}-8"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-9" name="data.stress_violence" value="9">
+                    <label for="stress_violence-{{actor._id}}-9"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-10" name="data.stress_violence" value="10">
+                    <label for="stress_violence-{{actor._id}}-10"></label>
+                    <span class="sideways">{{localize "BITD.labelCrumble"}}</span>
+
+                    <input type="radio" id="stress_violence-{{actor._id}}-11" name="data.stress_violence" value="11">
+                    <label for="stress_violence-{{actor._id}}-11"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-12" name="data.stress_violence" value="12">
+                    <label for="stress_violence-{{actor._id}}-12"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-13" name="data.stress_violence" value="13">
+                    <label for="stress_violence-{{actor._id}}-13"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-14" name="data.stress_violence" value="14">
+                    <label for="stress_violence-{{actor._id}}-14"></label>
+                    <input type="radio" id="stress_violence-{{actor._id}}-15" name="data.stress_violence" value="15">
+                    <label for="stress_violence-{{actor._id}}-15"></label>
+                    <span class="sideways">{{localize "BITD.labelBreak"}}</span>
+                    {{/multiboxes}}
+                </td>
+
+            </tr>
+            <tr>
+                <th><label>{{localize "BITD.labelUnnatural"}}</label></th>
+                <td class="stress">
+                    {{#multiboxes data.stress_crack}}
+                    <input type="radio" id="stress_crack-{{actor._id}}-0" name="data.stress_crack" value="0" checked="checked">
+                    <input type="radio" id="stress_crack-{{actor._id}}-1" name="data.stress_crack" value="1">
+                    <label for="stress_crack-{{actor._id}}-1"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-2" name="data.stress_crack" value="2">
+                    <label for="stress_crack-{{actor._id}}-2"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-3" name="data.stress_crack" value="3">
+                    <label for="stress_crack-{{actor._id}}-3"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-4" name="data.stress_crack" value="4">
+                    <label for="stress_crack-{{actor._id}}-4"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-5" name="data.stress_crack" value="5">
+                    <label for="stress_crack-{{actor._id}}-5"></label>
+                    <span class="sideways"></span>
+
+                    <input type="radio" id="stress_crack-{{actor._id}}-6" name="data.stress_crack" value="6">
+                    <label for="stress_crack-{{actor._id}}-6"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-7" name="data.stress_crack" value="7">
+                    <label for="stress_crack-{{actor._id}}-7"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-8" name="data.stress_crack" value="8">
+                    <label for="stress_crack-{{actor._id}}-8"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-9" name="data.stress_crack" value="9">
+                    <label for="stress_crack-{{actor._id}}-9"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-10" name="data.stress_crack" value="10">
+                    <label for="stress_crack-{{actor._id}}-10"></label>
+                    <span class="sideways"></span>
+
+                    <input type="radio" id="stress_crack-{{actor._id}}-11" name="data.stress_crack" value="11">
+                    <label for="stress_crack-{{actor._id}}-11"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-12" name="data.stress_crack" value="12">
+                    <label for="stress_crack-{{actor._id}}-12"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-13" name="data.stress_crack" value="13">
+                    <label for="stress_crack-{{actor._id}}-13"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-14" name="data.stress_crack" value="14">
+                    <label for="stress_crack-{{actor._id}}-14"></label>
+                    <input type="radio" id="stress_crack-{{actor._id}}-15" name="data.stress_crack" value="15">
+                    <label for="stress_crack-{{actor._id}}-15"></label>
+                    {{/multiboxes}}
+                </td>
+
+            </tr>
+            <tr>
+                <th><label>{{localize "BITD.labelHelplessness"}}</label></th>
+                <td class="stress">
+                    {{#multiboxes data.stress_helplessness}}
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-0" name="data.stress_helplessness" value="0" checked="checked">
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-1" name="data.stress_helplessness" value="1">
+                    <label for="stress_helplessness-{{actor._id}}-1"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-2" name="data.stress_helplessness" value="2">
+                    <label for="stress_helplessness-{{actor._id}}-2"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-3" name="data.stress_helplessness" value="3">
+                    <label for="stress_helplessness-{{actor._id}}-3"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-4" name="data.stress_helplessness" value="4">
+                    <label for="stress_helplessness-{{actor._id}}-4"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-5" name="data.stress_helplessness" value="5">
+                    <label for="stress_helplessness-{{actor._id}}-5"></label>
+                    <span class="sideways"></span>
+
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-6" name="data.stress_helplessness" value="6">
+                    <label for="stress_helplessness-{{actor._id}}-6"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-7" name="data.stress_helplessness" value="7">
+                    <label for="stress_helplessness-{{actor._id}}-7"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-8" name="data.stress_helplessness" value="8">
+                    <label for="stress_helplessness-{{actor._id}}-8"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-9" name="data.stress_helplessness" value="9">
+                    <label for="stress_helplessness-{{actor._id}}-9"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-10" name="data.stress_helplessness" value="10">
+                    <label for="stress_helplessness-{{actor._id}}-10"></label>
+                    <span class="sideways"></span>
+
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-11" name="data.stress_helplessness" value="11">
+                    <label for="stress_helplessness-{{actor._id}}-11"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-12" name="data.stress_helplessness" value="12">
+                    <label for="stress_helplessness-{{actor._id}}-12"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-13" name="data.stress_helplessness" value="13">
+                    <label for="stress_helplessness-{{actor._id}}-13"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-14" name="data.stress_helplessness" value="14">
+                    <label for="stress_helplessness-{{actor._id}}-14"></label>
+                    <input type="radio" id="stress_helplessness-{{actor._id}}-15" name="data.stress_helplessness" value="15">
+                    <label for="stress_helplessness-{{actor._id}}-15"></label>
+                    {{/multiboxes}}
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="trauma-list" id="character-{{actor._id}}-trauma-list" >
+    <table>
+      <tr>
+        <td><input type="text" name="data.traumaOne" value="{{data.traumaOne}}"></td>
+        <td><input type="text" name="data.traumaTwo" value="{{data.traumaTwo}}"></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="data.traumaThree" value="{{data.traumaThree}}"></td>
+        <td><input type="text" name="data.traumaFour" value="{{data.traumaFour}}"></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="data.traumaFive" value="{{data.traumaFive}}"></td>
+        <td><input type="text" name="data.traumaSix" value="{{data.traumaSix}}"></td>
+      </tr>
+    </table>
+  </div>
+</section>

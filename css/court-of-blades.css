@@ -1,0 +1,177 @@
+.blades-in-the-dark section.flexrow {
+	display: auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+
+.blades-in-the-dark label.stress-label {
+    margin-right: 286px;
+}
+
+.blades-in-the-dark label.paramour-label {
+    flex: 1;
+}
+
+.blades-in-the-dark .paramour input{
+	/* vertical-align: top; */
+	background: none;
+	border: 1px solid transparent;
+	position: relative;
+
+	border-bottom: 1px solid black;
+	border-radius: 0px;
+	padding: 2px;
+    font-size: 16px;
+    height: 30px;
+}
+
+.stresses {
+    max-width:343px;
+    float:left;
+}
+.trauma-list {
+    width: calc(100% - 343px);
+    float:right;
+
+    height: 91px;
+}
+
+.trauma-list input {
+    height: 19.8px;
+}
+
+table.stress-table {
+    width: 180px;
+    text-align: left;
+}
+td.stress {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stress-table tr{
+height: 30px;
+}
+
+td.stress label {
+    height: 10px;
+    width: 10px;
+    background-color: #ff0000;
+    vertical-align: middle;
+    border: 1px solid #191813;
+    transition: filter 0.1s;
+    cursor: pointer;
+}
+
+td.stress label[for$="-0"] {
+    /* margin-right: 0px; */
+}
+td.stress label:hover {
+    filter: brightness(0.8);
+    opacity: 0.9;
+}
+td.stress input {
+    display: none;
+}
+td.stress input:checked ~ label {
+    background-color: #EEEFFF;
+}
+td.stress input:checked + label {
+    background-color: #ff0000;
+}
+td.stress input ~ label {
+    margin-right: 3px;
+    margin-bottom: 3px;
+    transition: filter 0.2s;
+    cursor: pointer;
+}
+td.stress input ~ label[for$="0"] {
+    /* border-width: 2px; */
+}
+td.stress input ~ label:hover {
+    filter: brightness(0.8);
+    opacity: 0.9;
+}
+
+td.stress {
+    width: 268px;
+  }
+
+.bars {
+    position: absolute;
+    background-color: #191813;
+    height: 83px;
+    width: 18px;
+}
+
+td span.sideways, 
+td.sideways {
+    transform: 
+    /* translate(-25px, -51px) */
+    rotate(90deg);
+    width: 14px;
+    /* max-width:14px;
+    min-width:14px; */
+    padding:0;
+    font-size: 14px;
+    font-weight: bold;
+
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 7px;
+
+    color: #EEEFFF;
+}
+
+td.trauma input {
+    width: auto;
+}
+
+
+.blades-in-the-dark .heart-body {
+    display: flex;
+    /* Hide the browser's default checkbox */
+    /* position: absolute; */
+    top: 0px;
+    right: 0px;
+  }
+  .blades-in-the-dark .heart-body label {
+    height: 20px;
+    width: 20px;
+    background-image: url("assets/heart/heart-pink.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+    transition: filter 0.1s;
+    cursor: pointer;
+  }
+  .blades-in-the-dark .heart-body label:last-of-type {
+    margin-right: 0px;
+  }
+  .blades-in-the-dark .heart-body label[for$="-0"] {
+    width: auto;
+    height: auto;
+    background-image: none !important;
+    color: #EEEFFF;
+  }
+  .blades-in-the-dark .heart-body label[for$="-0"] i {
+    margin-top: 4px;
+  }
+  .blades-in-the-dark .heart-body label:hover {
+    filter: brightness(0.8);
+    opacity: 0.9;
+  }
+  .blades-in-the-dark .heart-body input {
+    display: none;
+  }
+  .blades-in-the-dark .heart-body input:checked ~ label {
+    background-image: url("assets/heart/heart-white.png");
+  }
+  .blades-in-the-dark .heart-body input:checked + label {
+    background-image: url("assets/heart/heart-pink.png");
+  }
+
+.blades-in-the-dark textarea.contacts {
+    margin-bottom: 5px;
+}

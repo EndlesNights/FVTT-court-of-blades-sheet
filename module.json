@@ -1,0 +1,23 @@
+{
+  "name": "court-of-blades",
+  "title": "Court of Blades Sheets",
+  "description": "Court of Blades Character Sheets.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "9.245",
+  "compatibleCoreVersion": "9",
+  "author": "EndlesNights#9000",
+  "systems": ["blades-in-the-dark"],
+  "esmodules": ["/modules/court-of-blades.js"],
+  "styles": ["./css/court-of-blades.css"],
+  "packs": [],
+  "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+  ],
+"url": "https://github.com/EndlesNights/FVTT-court-of-blades-sheet",
+"manifest": "",
+"download": ""
+}

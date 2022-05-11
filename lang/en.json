@@ -1,0 +1,36 @@
+{
+    "BITD.labelParamour": "Paramour",
+    "BITD.labelHouse": "House",
+    "BITD.labelEdge": "Edge",
+    "BITD.labelFlaw": "Flaw",
+    "BITD.labelContacts": "Contacts",
+
+    "BITD.labelViolence": "Violence",
+    "BITD.labelUnnatural": "Unnatural",
+    "BITD.labelHelplessness": "Helplessness",
+
+    "BITD.labelCrack": "CRACK",
+    "BITD.labelCrumble": "CRUMBLE",
+    "BITD.labelBreak": "BREAK",
+
+    "BITD.SkillsInsight": "Mind",
+    "BITD.SkillsInsightShort": "Mind",
+    "BITD.SkillsHunt": "Hunt",
+    "BITD.SkillsStudy": "Study",
+    "BITD.SkillsSurvey": "Survey",
+    "BITD.SkillsTinker": "Tinker",
+  
+    "BITD.SkillsProwess": "Body",
+    "BITD.SkillsProwessShort": "Body",
+    "BITD.SkillsFinesse": "Skulk",
+    "BITD.SkillsProwl": "Maneuver",
+    "BITD.SkillsSkirmish": "Skirmish",
+    "BITD.SkillsWreck": "Wreck",
+  
+    "BITD.SkillsResolve": "Spirit",
+    "BITD.SkillsResolveShort": "Spirit",
+    "BITD.SkillsAttune": "Channel",
+    "BITD.SkillsCommand": "Command",
+    "BITD.SkillsConsort": "Consort",
+    "BITD.SkillsSway": "Sway"
+}
