@@ -7,7 +7,7 @@
     <table class="stress-table ">
         <tbody>
             <tr>
-                <th><label>{{localize "BITD.labelViolence"}}</label></th>
+                <th><label class="rollable-text" for="stress_violence-{{actor._id}}-0">{{localize "BITD.labelViolence"}}</label></th>
                 <td class="stress">
                     {{#multiboxes data.stress_violence}}
                     <input type="radio" id="stress_violence-{{actor._id}}-0" name="data.stress_violence" value="0" checked="checked">
@@ -51,7 +51,7 @@
 
             </tr>
             <tr>
-                <th><label>{{localize "BITD.labelUnnatural"}}</label></th>
+                <th><label class="rollable-text" for="stress_crack-{{actor._id}}-0">{{localize "BITD.labelUnnatural"}}</label></th>
                 <td class="stress">
                     {{#multiboxes data.stress_crack}}
                     <input type="radio" id="stress_crack-{{actor._id}}-0" name="data.stress_crack" value="0" checked="checked">
@@ -94,7 +94,7 @@
 
             </tr>
             <tr>
-                <th><label>{{localize "BITD.labelHelplessness"}}</label></th>
+                <th><label class="rollable-text" for="stress_helplessness-{{actor._id}}-0">{{localize "BITD.labelHelplessness"}}</label></th>
                 <td class="stress">
                     {{#multiboxes data.stress_helplessness}}
                     <input type="radio" id="stress_helplessness-{{actor._id}}-0" name="data.stress_helplessness" value="0" checked="checked">

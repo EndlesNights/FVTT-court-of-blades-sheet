@@ -95,7 +95,7 @@
   <div id="character-{{actor._id}}-stress-trauma" class="section">
     <div id="character-{{actor._id}}-stress" class="character-stress">
 
-      <label class="black-label stress-label">{{localize data.stress.name}}</label>
+      <label class="black-label stress-title">{{localize data.stress.name}}</label>
       <label class="black-label" for="character-{{actor._id}}-trauma-counter-0">{{localize data.trauma.name}}</label>
 
       {{> "modules/court-of-blades/templates/stress.html" actor=actor}}
@@ -280,20 +280,9 @@
       <div class="tab grow-two flex-vertical" data-tab="paramour">
 
         <div class="heart-body">
-          <!-- <input type="radio" id="heart-{{actor._id}}-0" name="data.heart" value="0" checked="checked">
-          <input type="radio" id="heart-{{actor._id}}-1" name="data.heart" value="1">
-          <label for="heart-{{actor._id}}-1"></label>
-          <input type="radio" id="heart-{{actor._id}}-2" name="data.heart" value="2">
-          <label for="heart-{{actor._id}}-2"></label>
-          <input type="radio" id="heart-{{actor._id}}-3" name="data.heart" value="3">
-          <label for="heart-{{actor._id}}-3"></label>
-          <input type="radio" id="heart-{{actor._id}}-4" name="data.heart" value="4">
-          <label for="heart-{{actor._id}}-4"></label>
-          <input type="radio" id="heart-{{actor._id}}-5" name="data.heart" value="5">
-          <label for="heart-{{actor._id}}-5"></label>
-          <input type="radio" id="heart-{{actor._id}}-6" name="data.heart" value="6">
-          <label for="heart-{{actor._id}}-6"></label> -->
           {{#multiboxes data.heart}}
+          <label class ="heart-nullifier" for="heart-{{actor._id}}-0"><i class="fab fa-creative-commons-zero nullifier"></i></label>
+          <input type="radio" id="heart-{{actor._id}}-0" name="data.heart" value="0" checked="checked">
           {{#times_from_1 8}}
           <input type="radio" id="heart-{{actor._id}}-{{this}}"
                  name="data.heart" value="{{this}}">

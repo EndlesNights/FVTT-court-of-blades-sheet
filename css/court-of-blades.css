@@ -6,8 +6,12 @@
 }
 
 
-.blades-in-the-dark label.stress-label {
+.blades-in-the-dark label.stress-title {
     margin-right: 286px;
+}
+
+.blades-in-the-dark label.stress-label {
+    width: 40px;
 }
 
 .blades-in-the-dark label.paramour-label {
@@ -65,9 +69,6 @@ td.stress label {
     cursor: pointer;
 }
 
-td.stress label[for$="-0"] {
-    /* margin-right: 0px; */
-}
 td.stress label:hover {
     filter: brightness(0.8);
     opacity: 0.9;
@@ -87,9 +88,7 @@ td.stress input ~ label {
     transition: filter 0.2s;
     cursor: pointer;
 }
-td.stress input ~ label[for$="0"] {
-    /* border-width: 2px; */
-}
+
 td.stress input ~ label:hover {
     filter: brightness(0.8);
     opacity: 0.9;
@@ -132,11 +131,10 @@ td.trauma input {
 .blades-in-the-dark .heart-body {
     display: flex;
     /* Hide the browser's default checkbox */
-    /* position: absolute; */
     top: 0px;
     right: 0px;
-  }
-  .blades-in-the-dark .heart-body label {
+}
+.blades-in-the-dark .heart-body label {
     height: 20px;
     width: 20px;
     background-image: url("assets/heart/heart-pink.png");
@@ -145,32 +143,32 @@ td.trauma input {
     margin-right: 5px;
     transition: filter 0.1s;
     cursor: pointer;
-  }
-  .blades-in-the-dark .heart-body label:last-of-type {
+}
+.blades-in-the-dark .heart-body label:last-of-type {
     margin-right: 0px;
-  }
-  .blades-in-the-dark .heart-body label[for$="-0"] {
+}
+.blades-in-the-dark .heart-body label[for$="-0"] {
     width: auto;
     height: auto;
     background-image: none !important;
-    color: #EEEFFF;
-  }
-  .blades-in-the-dark .heart-body label[for$="-0"] i {
+    color: #191813;
+}
+.blades-in-the-dark .heart-body label[for$="-0"] i {
     margin-top: 4px;
-  }
-  .blades-in-the-dark .heart-body label:hover {
+}
+.blades-in-the-dark .heart-body label:hover {
     filter: brightness(0.8);
     opacity: 0.9;
-  }
-  .blades-in-the-dark .heart-body input {
+}
+.blades-in-the-dark .heart-body input {
     display: none;
-  }
-  .blades-in-the-dark .heart-body input:checked ~ label {
+}
+.blades-in-the-dark .heart-body input:checked ~ label {
     background-image: url("assets/heart/heart-white.png");
-  }
-  .blades-in-the-dark .heart-body input:checked + label {
+}
+.blades-in-the-dark .heart-body input:checked + label {
     background-image: url("assets/heart/heart-pink.png");
-  }
+}
 
 .blades-in-the-dark textarea.contacts {
     margin-bottom: 5px;
