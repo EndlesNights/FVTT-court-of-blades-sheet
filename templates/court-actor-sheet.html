@@ -180,8 +180,8 @@
         {{#if isGM}}
           <a class="item" data-tab="effects">{{localize "BITD.Effects"}}</a>
         {{/if}}
-        <a class="item" data-tab="all-character-items">{{localize "BITD.AllItems"}}</a>
         <a class="item" data-tab="paramour">{{localize "BITD.labelParamour"}}</a>
+        <a class="item" data-tab="all-character-items">{{localize "BITD.AllItems"}}</a>
       </nav>
 
       <div id="character-{{actor._id}}-abilities" class="tab flex-vertical abilities" data-tab="abilities">
@@ -279,6 +279,16 @@
 
       <div class="tab grow-two flex-vertical" data-tab="paramour">
 
+
+        <div class="form-group paramour">
+          <label class="black-label paramour-label">{{localize "BITD.labelParamour"}}:</label>
+          <input type="text" name="data.paramour" value="{{data.paramour}}">
+        </div>
+
+        <div class="form-group paramour">
+          <label class="black-label paramour-label">{{localize "BITD.labelHouse"}}:</label>
+          <input type="text" name="data.house" value="{{data.house}}">
+        </div>
         <div class="heart-body">
           {{#multiboxes data.heart}}
           <label class ="heart-nullifier" for="heart-{{actor._id}}-0"><i class="fab fa-creative-commons-zero nullifier"></i></label>
@@ -289,19 +299,7 @@
           <label for="heart-{{actor._id}}-{{this}}"></label>
           {{/times_from_1}}
           {{/multiboxes}}
-
-
         </div>
-        <div class="form-group paramour">
-          <label class="black-label paramour-label">{{localize "BITD.labelParamour"}}:</label>
-          <input type="text" name="data.paramour" value="{{data.paramour}}">
-        </div>
-
-        <div class="form-group paramour">
-          <label class="black-label paramour-label">{{localize "BITD.labelHouse"}}:</label>
-          <input type="text" name="data.house" value="{{data.house}}">
-        </div>
-
         <table>
           <tr>
             <th><label>{{localize "BITD.labelEdge"}}</label></th>
