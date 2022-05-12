@@ -5,9 +5,9 @@
 * **Foundry VTT Compatibility**: v9
 
 ## Description
-A [FoundryVTT](https://foundryvtt.com/) module that provides character sheets for the Court of Blades supplement for the system [Blades in the Dark](https://github.com/megastruktur/foundryvtt-blades-in-the-dark) as commissioned by [QCG]Aaron#1707. This module will make the Court of Blades Character sheet the default sheet for your world.
+A [FoundryVTT](https://foundryvtt.com/) module that provides character sheets for a homebrew version of Court of Blades supplement for the system [Blades in the Dark](https://github.com/megastruktur/foundryvtt-blades-in-the-dark) as commissioned by [QCG]Aaron#1707. This module will make the Court of Blades Character sheet the default sheet for your world.
 
-Renames a number of attributes and skills from Blades in the Dark base system to those used within Court of Blades.
+Renames a number of attributes and skills from Blades in the Dark base system.
 
 Change in Attributes Names
 - Prowess -> Body
@@ -26,3 +26,5 @@ Adds three more exp slots for attributes
 Added a new tab for Paramour & Contacts list.
 
 ## Licenses
+
+[GNUv3 license](https://github.com/EndlesNights/fvtt-court-of-blades-sheet/blob/main/LICENSE.txt).
