@@ -23,12 +23,3 @@ Hooks.on('init', () => {
         "modules/court-of-blades/templates/attributes.html"
     ]);
 });
-
-Hooks.on("ready", () => {
-
-});
-
-
-Hooks.on("renderBladesActorSheet", (app, html) => {
-    console.log("test");
-})

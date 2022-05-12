@@ -2,7 +2,6 @@ import {BladesActorSheet} from "../../../systems/blades-in-the-dark/module/blade
 
 export default class CourtCharacterSheet extends BladesActorSheet{
     get template(){
-        console.log("CourCharacterSheet")
         return "modules/court-of-blades/templates/court-actor-sheet.html";
     }
 }
